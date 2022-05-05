@@ -4,9 +4,20 @@ jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
       -name: echo a String
        run: echo "Hello World First GitHubAction Program"
       -name: Multiline Script
        run: |
         node -v
         npm -v
+=======
+      - name: echo a String
+        run: echo "Hello World"
+      - name: Multiline Script
+        run: |
+          node -v
+          npm -v
+
+      
+>>>>>>> fb6300ea6ca97a07ec225bb3212ab05e04f91ed1
