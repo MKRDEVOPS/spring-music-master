@@ -25,4 +25,6 @@ jobs:
         shell: python
       - name: Powershell
         run: pwd
+      - name: Directory Power shell
+        run: Get-location
         shell: bash
