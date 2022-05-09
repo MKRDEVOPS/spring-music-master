@@ -1,7 +1,7 @@
 name: First WorkFlow Ex
 on: push
 jobs:
-  run-shell-commands:
+  1.run-shell-commands:
     runs-on: ubuntu-latest
     steps:
       - name: echo a String
@@ -15,7 +15,7 @@ jobs:
           import platform
           print(platform.processor())
         shell: python
-  run-power-shell-commands:
+  2.run-power-shell-commands:
     runs-on: windows-latest
     needs: [run-shell-commands]
     steps:
