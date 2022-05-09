@@ -23,7 +23,7 @@ jobs:
           import platform
           print(platform.processor())
         shell: python
-      - name: Powershell
+      - name: Directory Bash
         run: pwd
       - name: Directory Power shell
         run: Get-Location
