@@ -1,8 +1,8 @@
-name: Actions Workflow
+name: GitHub Actions Workflow
 on: [push]
 jobs:
   Action-Workflow:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Simple JS Action
         id: greet
