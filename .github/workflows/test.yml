@@ -10,7 +10,6 @@ jobs:
         run: |
          node -v
          npm -v
-    steps:
       - name: Platform
         run: |
           import platform
