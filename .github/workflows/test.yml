@@ -10,11 +10,20 @@ jobs:
         run: |
          node -v
          npm -v
-  run-power-shell-commands:
-    runs-on: windows-latest
     steps:
       - name: Platform
         run: |
           import platform
           print(platform.processor())
         shell: python
+  run-power-shell-commands:
+    runs-on: windows-latest
+    steps:
+      - name: Windows Platform
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
+      - name: Powershell
+        run: pwd
+        shell: bash
