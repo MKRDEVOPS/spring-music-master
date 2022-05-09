@@ -17,6 +17,7 @@ jobs:
         shell: python
   run-power-shell-commands:
     runs-on: windows-latest
+    needs: [run-shell-commands]
     steps:
       - name: Windows Platform
         run: |
