@@ -1,5 +1,9 @@
 name: First WorkFlow Ex
+<<<<<<< HEAD
+on: pull_request
+=======
 on: [push,pull_request]
+>>>>>>> f800ae17e08175103f5de8b093fb91bc18697d81
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest

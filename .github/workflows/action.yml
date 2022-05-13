@@ -1,5 +1,9 @@
 name: GitHub Actions Workflow
+<<<<<<< HEAD
+on: [push,pull_request]
+=======
 on: [pull_request]
+>>>>>>> f800ae17e08175103f5de8b093fb91bc18697d81
 jobs:
   Action-Workflow:
     runs-on: ubuntu-latest
