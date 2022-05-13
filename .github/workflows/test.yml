@@ -1,5 +1,5 @@
 name: First WorkFlow Ex
-on: [push,pull-request]
+on: [push,pull_request]
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
